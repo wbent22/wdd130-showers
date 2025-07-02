@@ -1,8 +1,35 @@
 *{
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     background-color: #EFE1CC;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-logo{
+    width: 150px;
+    justify-self: center;
+}
+
+.header-title{
+    font-size: 4.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+footer{
+    background-color: #222222;
+    display: block;
+    align-items: center;
+    text-align: center;
 }
