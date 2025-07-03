@@ -16,6 +16,7 @@ header{
 .header-logo{
     width: 150px;
     justify-self: center;
+    padding: 10px;
 }
 
 .header-title{
@@ -23,8 +24,28 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     justify-content: center;
+    color: #222222;
 }
 
+.nav-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #3B2A1A;
+    
+}
+
+.nav-list li{
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #EFE1CC;
+}
 
 
 footer{
@@ -32,4 +53,15 @@ footer{
     display: block;
     align-items: center;
     text-align: center;
+}
+
+.footer-logo{
+    width: 200px;
+    padding-top: 20px;
+}
+
+.copyright{
+    color: #EFE1CC;
+    font-size: 1.5em;
+    padding: 20px;
 }
