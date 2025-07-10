@@ -52,6 +52,11 @@ header{
     color: #EFE1CC;
 }
 
+.nav-list li a:hover{
+  color: #247BA0;
+  text-shadow: #EFE1CC 2px 2px 1px;
+}
+
 main{
     background-color: #EFE1CC;
 }
@@ -79,11 +84,30 @@ main{
     grid-template-columns: 1fr 1fr;
     margin: 2em;
     text-align: center;
+    padding: 2em;
+    border: 10px solid #247BA0;
+    border-radius: 20px;
+    background-color: #3B2A1A;
+}
+
+.kitchen p, .insert p{
+  font-size: 1.5em;
+  text-align: center;
+  align-self: center;
+  color: #EFE1CC;
+}
+
+.insert p{
+  margin-right: 2em;
+}
+
+.kitchen p{
+  margin-left: 2em;
 }
 
 .home-pic{
     width: 35vw;
-    border: #222222 solid 8px;
+    border: #EFE1CC solid 8px;
     border-radius: 10px;
     justify-self: center;
 }
