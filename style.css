@@ -3,6 +3,11 @@
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    color: #222222;
+}
+
+body{
+    background-color: #EFE1CC;
 }
 
 header{
@@ -46,6 +51,43 @@ header{
     font-size: 2em;
     color: #EFE1CC;
 }
+
+main{
+    background-color: #EFE1CC;
+}
+
+.page-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #EFE1CC;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.page-title-wrapper{
+    padding: 2em;
+    background-color:#3B2A1A;
+    margin: 2em auto;
+    border-radius: 20px;
+    border: 10px solid #247BA0;
+    width: 70%
+}
+
+.kitchen, .insert{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    text-align: center;
+}
+
+.home-pic{
+    width: 35vw;
+    border: #222222 solid 8px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
 
 
 footer{
